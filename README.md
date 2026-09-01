@@ -166,7 +166,7 @@ Scope exclusion: marketing copy, blog voice, brand writing.
 | claude-sonnet-5 | 3.76 | 0.53 | 86% |
 | claude-sonnet-4-6 | 2.65 | 0.51 | 81% |
 
-Linter methodology, caveats, and full benchmark results are detailed in [`evals/results/RESULTS.md`](evals/results/RESULTS.md). Reproduce the benchmark using `python3 evals/run_bench.py` (requires Claude Code CLI).
+Generate benchmark results with `python3 evals/run_bench.py`. The command writes ignored artifacts under `evals/results/` and requires Claude Code CLI.
 
 ## Receipts
 

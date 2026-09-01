@@ -1,13 +1,13 @@
 {
-  "name": "simple-english",
-  "displayName": "Simple English",
-  "description": "Write plain, layman-readable English with the discipline of ASD-STE100 Simplified Technical English: short sentences, one word one meaning, active voice, condition before command, terms defined at first use.",
-  "version": "2.0.0",
+  "name": "unanthropomorphic-english",
+  "displayName": "Unanthropomorphic English",
+  "description": "Write clear technical text with ASD-STE100 rules and no human persona.",
+  "version": "1.0.0",
   "author": {
-    "name": "AminBlg"
+    "name": "David Bang"
   },
-  "homepage": "https://github.com/AminBlg/SimpleEnglish",
-  "repository": "https://github.com/AminBlg/SimpleEnglish",
+  "homepage": "https://github.com/davidsgbang/UnanthromorphicEnglish",
+  "repository": "https://github.com/davidsgbang/UnanthromorphicEnglish",
   "license": "MIT",
   "keywords": [
     "technical-writing",
@@ -21,9 +21,9 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"${CLAUDE_PLUGIN_ROOT}/src/hooks/simple-english-activate.js\"",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/src/hooks/unanthropomorphic-english-activate.js\"",
             "timeout": 5,
-            "statusMessage": "Loading Simple English..."
+            "statusMessage": "Loading Unanthropomorphic English..."
           }
         ]
       }
@@ -36,7 +36,7 @@
             "type": "command",
             "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/src/hooks/lint_hook.py\"",
             "timeout": 10,
-            "statusMessage": "Simple English: checking the file..."
+            "statusMessage": "Unanthropomorphic English: checking the file..."
           }
         ]
       }

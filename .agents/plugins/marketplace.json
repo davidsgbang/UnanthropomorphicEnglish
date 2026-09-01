@@ -1,11 +1,11 @@
 {
-  "name": "simple-english",
+  "name": "unanthropomorphic-english",
   "interface": {
-    "displayName": "Simple English"
+    "displayName": "Unanthropomorphic English"
   },
   "plugins": [
     {
-      "name": "simple-english",
+      "name": "unanthropomorphic-english",
       "source": {
         "source": "local",
         "path": "./"

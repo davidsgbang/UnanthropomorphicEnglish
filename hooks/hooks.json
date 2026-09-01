@@ -1,5 +1,5 @@
 {
-  "description": "Load Simple English rules automatically for each Codex session.",
+  "description": "Load Unanthropomorphic English rules automatically for each Codex session.",
   "hooks": {
     "SessionStart": [
       {
@@ -7,9 +7,9 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"${PLUGIN_ROOT}/src/hooks/simple-english-activate.js\"",
+            "command": "node \"${PLUGIN_ROOT}/src/hooks/unanthropomorphic-english-activate.js\"",
             "timeout": 5,
-            "statusMessage": "Loading Simple English...",
+            "statusMessage": "Loading Unanthropomorphic English...",
             "additionalContextLimit": 0
           }
         ]

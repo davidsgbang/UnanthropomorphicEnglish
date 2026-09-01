@@ -53,7 +53,7 @@ def post_tool_use(event):
         return 0
     summary = ", ".join(f"{k} {v}" for k, v in hits.items())
     sys.stderr.write(
-        f"simple-english: {pathlib.Path(path).name} has {report['violations_total']} STE violations "
+        f"unanthropomorphic-english: {pathlib.Path(path).name} has {report['violations_total']} STE violations "
         f"({summary}). Run the self-check in SKILL.md before you deliver.\n"
     )
     return 2
@@ -77,7 +77,7 @@ def stop(event):
         if slop:
             problems.append(f"{slop} slop word(s)")
     if problems:
-        print(json.dumps({"systemMessage": "simple-english reply check: " + "; ".join(problems) + "."}))
+        print(json.dumps({"systemMessage": "unanthropomorphic-english reply check: " + "; ".join(problems) + "."}))
     return 0
 
 

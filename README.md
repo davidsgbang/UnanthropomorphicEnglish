@@ -92,13 +92,13 @@ More rewrites in [`examples/before-after.md`](examples/before-after.md): READMEs
 ## Install
 
 ```bash
-npx skills add davidsgbang/UnanthromorphicEnglish
+npx skills add davidsgbang/UnanthropomorphicEnglish
 ```
 
 The [skills CLI](https://github.com/vercel-labs/skills) automatically detects and installs the skill for supported agents (Claude Code, Cursor, Codex, Copilot, Gemini CLI).
 
 ```bash
-npx skills use davidsgbang/UnanthromorphicEnglish
+npx skills use davidsgbang/UnanthropomorphicEnglish
 ```
 
 If the environment lacks SKILL.md support, append `prompts/system-prompt.md` to your system prompt, `AGENTS.md`, or `.cursorrules`.
@@ -109,7 +109,7 @@ The skill loads automatically at the start of sessions at all times and applies 
 
 **Claude.ai** (paid plans) supports skills natively:
 
-1. Download the skill file: open [SKILL.md](https://github.com/davidsgbang/UnanthromorphicEnglish/raw/main/skills/unanthropomorphic-english/SKILL.md) and save it (Ctrl+S / Cmd+S).
+1. Download the skill file: open [SKILL.md](https://github.com/davidsgbang/UnanthropomorphicEnglish/raw/main/skills/unanthropomorphic-english/SKILL.md) and save it (Ctrl+S / Cmd+S).
 2. In claude.ai, go to **Settings → Capabilities** and turn on code execution.
 3. Go to **Settings → Customize → Skills → Upload** and upload the saved `SKILL.md`.
 4. Enable the skill. Claude loads it at the start of sessions at all times.
